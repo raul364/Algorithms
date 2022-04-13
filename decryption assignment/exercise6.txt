@@ -1,0 +1,5 @@
+CENCESHEKNEWNOTWHATWASEXPECTED
+
+I used decryptTransposition function from the python file which prints the cipher text written column wise into each column based on length of cipher diveded by the number of columns.
+This prints out the cipher text in 6 columns which i extracted and manually analysed to find the order (250413). I then edited (commented out if statements) decryptTransposition to print the columns out in "2,5,0,4,1,3" order
+which converted the cipher into plain text.

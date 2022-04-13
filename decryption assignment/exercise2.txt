@@ -1,0 +1,4 @@
+EXTRAORDINARYRICHNESSOUTOFWHIC
+
+Using convertStr function in the provided python file, I converted each letter in the key and cipher text into its integer form, then parsed it into decrpytVigenere
+function which itereates over both list of numbers and subtracts the keys value from the cipher text then mods it by 26 then finally gets converted to letters again. 

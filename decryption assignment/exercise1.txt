@@ -1,0 +1,5 @@
+ILLINGONEOFTHECHRONICALLYFEWTH
+
+Using letterFreq function in decryptionTools.py, it calculated the letter frequency of the cipher. I figured out that E = K as K was the post frequent
+and E is the most used letter in the english alphabet. 
+Then I used decryptEx1 function which converts each letter into its integer value and subtracts the integer value of E then mods it by 26 to decrypt the cipher text.

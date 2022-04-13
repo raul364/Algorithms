@@ -1,0 +1,30 @@
+|WHICH|SUNLIGHT|MIGHT|HAVE|REV
+
+To decrypt this i parsed the string of tess27.txt and the cipher into letterFreq function in the provided python file, which gave me the frequency of all letters and characters in the alphabet
+using that i deduced that 'V' and 'A' in the cipher were most likely '|' and 'E' in the language. I then parsed the cipher and the mapping {V: ' ', A: E} into decrpytEx7 function which broke the cipher into words.
+Knowing that 'E' was in the correct position, I then looked for any 3 letter words which had E in it. I stummbeled up on 'OEX EYEP' (OAX AYAP - orginal cipher) and decided EYEP was most likely EYES
+and so i updated the mapping list and ran decryptEx7 again. I kept manual going over the updated cipher and comparing with the original cipher to spot new words.
+The Mapping at the end:
+(letters in cipher: mapped to)
+{'A': 'E', 
+ 'B': 'F',
+ 'E': 'P',
+ 'F': 'B',
+ 'G': 'G',
+ 'H': 'V',
+ 'I': 'M',
+ 'J': 'A',
+ 'K': 'N', 
+ 'M': 'U',
+ 'N': 'I',
+ 'O': 'H',
+ 'P': 'S',
+ 'Q': 'L',
+ 'R': 'O',
+ 'S': 'D',
+ 'T': 'C',
+ 'V': '|',
+ 'X': 'R',
+ 'Y': 'Y',
+ 'Z': 'W',
+ '|': 'T'}

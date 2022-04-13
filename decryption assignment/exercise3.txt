@@ -1,0 +1,9 @@
+PITWOULDBEVIEWEDINTHELIGHTOFAJ
+
+I calculated the letter frequency of tess26.txt using LetterFreq() and parsed it, and the cipher text as input to findVigenereKey function in the provided python file.
+The function calculates the frequency of every 6th letter in the ciher and then multiplies this with the tess26 letter frequency then adds all the frequencies together to get the total.
+keep shifting the letters left and calculating the total till the cipher alphabet does a full circle and then the number of shifts it took to get the highest total, is the integer value of the keyword letter.
+The function does this 5 more times and shifts 1 place to get next 6 letters.
+I then used decrpytVigenere function to decrypt the message using the cipher and the keyword as input.
+decrpytVigenere funtion loops over the keyword and minuses each value of the keyword letter from each letter in the cipher its iterating over.
+The keyword was HLKDYJ

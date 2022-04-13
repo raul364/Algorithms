@@ -1,0 +1,5 @@
+SAIMSANDIMPULSESITSTRUEHISTORY
+
+Decrypted using decryptTransposition function in the provided python file. decryptTransposition function takes in the cipher text and number of columns as input,
+it then works out the number of rows each column should have and divides the string by the rows and puts it in each column 
+(opposite of encryption where the plaintext is placed row wise) after that, the columns are printed which gives the plain text.
